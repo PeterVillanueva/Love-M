@@ -22,76 +22,99 @@ body {
   align-items: center;
   background-color: var(--main-bg);
   font-family: "Nunito", sans-serif;
+}
 
-  .wrapper {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-weight: 700;
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-weight: 700;
+}
 
-    .gif {
-      height: auto;
-      @media screen and (max-width: 576px) {
-        width: 80%;
-      }
-    }
+.gif {
+  height: auto;
 
-    h2 {
-      text-align: left;
-      font-size: 3.7rem;
-      color: var(--red);
-      margin: 15px 20px;
-      @media screen and (max-width: 576px) {
-        font-size: 2.5rem;
-      }
-    }
-    
-    .question {
-      font-size: 2rem; /* Adjust the size according to your preference */
-    }
+}
 
-    .btn-group {
-      width: 100%;
-      height: 50px;
-      display: flex;
-      justify-content: center;
-      margin-top: 50px;
-
-      .btn {
-        position: absolute;
-        width: 150px;
-        height: inherit;
-        color: var(--white);
-        font-size: 1.9rem;
-        border-radius: 30px;
-        outline: none;
-        cursor: pointer;
-        box-shadow: 0 2px 4px var(--grey);
-        border: 2px solid var(--red);
-        @media screen and (max-width: 576px) {
-          width: 145px;
-        }
-      }
-
-      .yes-btn {
-        margin-left: -200px;
-        background-color: var(--red);
-        @media screen and (max-width: 576px) {
-          margin-left: -170px;
-        }
-      }
-
-      .no-btn {
-        margin-right: -200px;
-        background-color: var(--white);
-        color: var(--red);
-        overflow-x: hidden;
-        @media screen and (max-width: 576px) {
-          margin-right: -170px;
-        }
-      }
-    }
+@media screen and (max-width: 576px) {
+  .gif {
+    width: 80%;
   }
+}
+
+
+h2 {
+  text-align: left;
+  font-size: 3.7rem;
+  color: var(--red);
+  margin: 15px 20px;
+
+}
+
+@media screen and (max-width: 576px) {
+  h2 {
+    font-size: 2.5rem;
+  }
+}
+
+
+.question {
+  font-size: 2rem;
+  /* Adjust the size according to your preference */
+}
+
+.btn-group {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.btn {
+  position: absolute;
+  width: 150px;
+  height: inherit;
+  color: var(--white);
+  font-size: 1.9rem;
+  border-radius: 30px;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 2px 4px var(--grey);
+  border: 2px solid var(--red);
+}
+
+@media screen and (max-width: 576px) {
+  .btn {
+  width: 145px;
+  }
+}
+
+
+.yes-btn {
+  margin-left: -200px;
+  background-color: var(--red);
+}
+
+@media screen and (max-width: 576px) {
+  .yes-btn {
+  margin-left: -170px;
+  }
+}
+
+
+.no-btn {
+  margin-right: -200px;
+  background-color: var(--white);
+  color: var(--red);
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 576px) {
+  .no-btn {
+  margin-right: -170px;
+  }
+
 }
