@@ -17,7 +17,7 @@ function moveButton() {
 }
 
 yesBtn.addEventListener("click", () => {
-  question.innerHTML = "From the moment our eyes met, my world transformed into a kaleidoscope of emotions, and your smile became the brightest star in my universe. In your presence, I find inspiration, joy, and a love that words fail to capture. You are the melody to my heart's song, the sunshine in my every day. I cherish every moment with you, for in each one, I discover a new depth to this beautiful feeling. In the grand tapestry of life, you are the thread that weaves through every chapter, making it infinitely more meaningful. I love you, Joylen Faye, with a love that grows stronger with every beat of my heart.";
+  question.innerHTML = "From the moment our eyes met, my world transformed into a kaleidoscope of emotions, and your smile became the brightest star in my universe. In your presence, I find inspiration, joy, and a love that words fail to capture. You are the melody to my heart's song, the sunshine in my every day. I cherish every moment with you, for in each one, I discover a new depth to this beautiful feeling. In the grand tapestry of life, you are the thread that weaves through every chapter, making it infinitely more meaningful. I love you, Jane, with a love that grows stronger with every beat of my heart.";
   gif.src = "https://media.giphy.com/media/UMon0fuimoAN9ueUNP/giphy.gif";
   
   btnGroup.style.display = "none";
